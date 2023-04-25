@@ -14,7 +14,7 @@
         "outputPath": "/home/deck/Projects/CSharp/TuxfamilyScraper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/home/deck/.local/share/Godot-Manager/versions/Godot_v4.0.1-stable_mono_linux_x86_64/editor_data/mono/GodotNuGetFallbackFolder"
+          "/home/deck/.local/share/Godot-Manager/versions/Godot_v4.0.2-stable_mono_linux_x86_64/editor_data/mono/GodotNuGetFallbackFolder"
         ],
         "configFilePaths": [
           "/home/deck/.nuget/NuGet/NuGet.Config",
@@ -45,6 +45,14 @@
             "Hangfire": {
               "target": "Package",
               "version": "[1.7.34, )"
+            },
+            "Hangfire.Dashboard.Basic.Authentication": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Hangfire.Dashboard.Dark": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             },
             "Hangfire.Mongo": {
               "target": "Package",
